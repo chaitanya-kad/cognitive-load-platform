@@ -1,16 +1,41 @@
-# React + Vite
+# Cognitive Load Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack behavioral analytics platform that estimates cognitive load from typing dynamics and interaction patterns.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Real-time WPM tracking
+- Keystroke heatmap
+- Behavioral analytics dashboard
+- Session history tracking
+- Cognitive load estimation
+- Interactive visualizations
+- FastAPI backend
 
-## React Compiler
+## Methodology
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The platform estimates cognitive load using a rule-based behavioral scoring framework derived from:
 
-## Expanding the ESLint configuration
+- Error Rate
+- Pause Frequency
+- Typing Consistency
+- Correction Bursts
+- Keystroke Dynamics
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+These metrics are aggregated into behavioral indicators such as:
+
+- Focus Score
+- Stress Likelihood
+- Cognitive Fatigue
+- Typing Consistency Index
+
+## Tech Stack
+
+Frontend:
+- React
+- Tailwind CSS
+- Recharts
+
+Backend:
+- FastAPI
+- Python
